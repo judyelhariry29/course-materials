@@ -76,7 +76,7 @@ ping -c 1 10.0.2.5
 > *(the corrected section in the reading view, its picture showing — `task2-fixed.png`)*
 
 **Q1. The mistake on line 6 broke more than its own line.
-What did it do to the rest of the section, and why does that make it the most expensive of the four in a worksheet?**
+What did it do to the rest of the section, and why does that make it the most expensive of the four in a worksheet?** The mistake on line 6 (failing to close the code block with ` ``` `) caused everything below it to be treated as part of the code block. This broke the Markdown rendering (such as headings, images, and links), turning them into plain text instead of formatted elements. This makes it the most expensive mistake because it corrupts the formatting and readability of all subsequent content in the worksheet.
 
 ```
 he unmatched backticks of line 6 left the code block open, causing everything below it in the section to be treated as part of the code block instead of regular Markdown[cite: 3]. This makes it the most "expensive" mistake because a single missing character destroys the formatting, headers, tables, and images of the entire remaining section, requiring a complete structural review to fix[cite: 3].
@@ -86,19 +86,27 @@ he unmatched backticks of line 6 left the code block open, causing everything be
 
 # Task 3: Hand It In and Confirm It Arrived
 
-**Your `git push` output:**
+- `HEAD`: Points to the latest commit you are currently checked out on locally.
+    
+- `origin/main`: Points to the last known state of the `main` branch synchronized on the remote server on GitHub.
+    
+- If `origin/main` were one line lower (older), it would mean your local machine has new commits that haven't been pushed to GitHub yet, and you need to run `git push`.
 
 ```
 (paste output here)
 ```
 
-**Your `git status` output, after the push:**
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```[cite: 7]
 
 ```
 (paste output here)
 ```
 
-**Your `git log --oneline -3` output:**
+d5e34f9 (HEAD -> main, origin/main) Module 0 Session 2: completed all home tasks ```[cite: 7]
 
 ```
 (paste output here)
@@ -111,14 +119,16 @@ he unmatched backticks of line 6 left the code block open, causing everything be
 What does each of the two names tell you, and what would it mean if `origin/main` were one line lower?**
 
 ```
-(your answer here)
+- `HEAD`: Points to the latest commit you are currently checked out on locally.
+- `origin/main`: Points to the last known state of the `main` branch synchronized on the remote server on GitHub.
+- If `origin/main` were one line lower (older), it would mean your local machine has new commits that haven't been pushed to GitHub yet, and you need to run `git push`.
 ```
 
 **Q2. You committed twice but pushed once.
 Until the push, who could see your two commits, and what would that have meant at 22:00 on Saturday?**
 
 ```
-(your answer here)
+Until the push, only you could see your two commits locally on your machine. If the final deadline (Saturday at 22:00) arrived and you hadn't performed a `git push`, nothing would be visible on GitHub, meaning the system would record that you didn't submit the task and you would receive no grade.
 ```
 
 ---
