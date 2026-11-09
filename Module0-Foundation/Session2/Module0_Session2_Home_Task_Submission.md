@@ -4,7 +4,7 @@
 
 ### Professional Training in Cybersecurity I
 
-**Student Name:**
+**Student Name: judy elhariry **
 
 **Date:**
 
@@ -39,6 +39,7 @@ This lab is designed to test network **connectivity** between virtual machines.
 **Q1. Your screenshot's path is `screenshots/task1-lab-card.png`, not `/home/kali/student-YOUR-USERNAME/...`. Where is that path read from, and why would the full path show a broken image to your instructor even though it works on your machine?**
 
 The path `screenshots/task1-lab-card.png` is read **relatively** from the location of the Markdown file itself. If you use the full local path (`/home/kali/...`), that path is unique to your specific machine; when your instructor clones and opens the repository on their own computer, that exact directory structure will not exist there, causing the image to appear broken even though it works locally on your machine[cite: 1].
+![task1-lab-card](screenshots/task1-lab-card.png)
 
 **Q2. Your screenshot line starts with `!`. What would the same line show without the `!`?**
 
@@ -72,8 +73,7 @@ What Obsidian shows: Turns the rest of the file into a giant code block, destroy
 ```bash
 ping -c 1 10.0.2.5
 
-> [!example] Evidence — screenshot
-> *(the corrected section in the reading view, its picture showing — `task2-fixed.png`)*
+![task2-fixed](screenshots/task2-fixed.png)
 
 **Q1. The mistake on line 6 broke more than its own line.
 What did it do to the rest of the section, and why does that make it the most expensive of the four in a worksheet?** The mistake on line 6 (failing to close the code block with ` ``` `) caused everything below it to be treated as part of the code block. This broke the Markdown rendering (such as headings, images, and links), turning them into plain text instead of formatted elements. This makes it the most expensive mistake because it corrupts the formatting and readability of all subsequent content in the worksheet.
@@ -93,7 +93,7 @@ he unmatched backticks of line 6 left the code block open, causing everything be
 - If `origin/main` were one line lower (older), it would mean your local machine has new commits that haven't been pushed to GitHub yet, and you need to run `git push`.
 
 ```
-(paste output here)
+
 ```
 
 On branch main
@@ -103,17 +103,16 @@ nothing to commit, working tree clean
 ```[cite: 7]
 
 ```
-(paste output here)
+
 ```
 
 d5e34f9 (HEAD -> main, origin/main) Module 0 Session 2: completed all home tasks ```[cite: 7]
 
 ```
-(paste output here)
+
 ```
 
-> [!example] Evidence — screenshot
-> *(this worksheet open on GitHub, showing your lab card and its picture — `task3-github.png`)*
+>![task3-github](screenshots/task3-github.png)
 
 **Q1. The newest line of `git log --oneline` shows `(HEAD -> main, origin/main)`.
 What does each of the two names tell you, and what would it mean if `origin/main` were one line lower?**
