@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "c6559202531b023a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e50045c078c69311",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e083c7b42fd6e24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module0_Session2_Home_Task_Submission.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Module0_Session2_Home_Task_Submission"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "984817a4006f4485",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5f204faf6040f83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a34d3c871018aa3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "339d958b08ae4af7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "810e60b0fcee7d89",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1140728ed8ecfaa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad7c26301231aa0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf64615e1be659c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Module0_Session2_Home_Task_Submission.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Module0_Session2_Home_Task_Submission"
+            }
+          },
+          {
+            "id": "0897758d72515ddc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Module0_Session2_Home_Task_Submission.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Module0_Session2_Home_Task_Submission"
+            }
+          },
+          {
+            "id": "17103e8905f25b55",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "892a133a310bd75f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Module0_Session2_Home_Task_Submission.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Module0_Session2_Home_Task_Submission"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1e083c7b42fd6e24",
+  "lastOpenFiles": []
+}
