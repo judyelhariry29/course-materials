@@ -1,0 +1,8 @@
+Watchlist report for connections.log
+09:14:20 DENY  10.0.0.23:3389
+09:15:33 DENY  10.0.0.23:445
+09:15:52 ALLOW 192.168.1.10:22
+09:16:45 ALLOW 10.0.0.23:443
+Connections per watched host:
+  10.0.0.23  3
+  192.168.1.10  1
